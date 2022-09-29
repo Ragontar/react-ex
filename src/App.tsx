@@ -1,10 +1,10 @@
-import React from "react";
-import LinkTelegramContainer from "./components/TelegramLinker";
+import React from 'react';
+import {LinkTelegramForm} from './components';
 
 function App() {
 	return (
 		<div>
-			<LinkTelegramContainer />;
+			<LinkTelegramForm />;
 		</div>
 	);
 }
