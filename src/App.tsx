@@ -1,12 +1,21 @@
 import React from "react";
 import LinkTelegramContainer from "./components/TelegramLinker";
 
-const App: React.FC = () => {
+// const App: React.FC = () => {
+// 	return (
+// 		<div>
+// 			<LinkTelegramContainer />
+// 		</div>
+// 	);
+// };
+
+function App() {
 	return (
 		<div>
-			<LinkTelegramContainer />
+			<LinkTelegramContainer />;
 		</div>
 	);
-};
+}
+
 
 export default App;
