@@ -4,8 +4,6 @@ import App from "./App";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// const root = document.getElementById("root");
-
 localStorage.setItem("user_id", "59608c78-912e-4c97-88b6-e6ace07957be");
 
 const root = ReactDOM.createRoot(
@@ -17,4 +15,3 @@ root.render(
 		<App />
 	</React.StrictMode>
 );
-// ReactDOM.render(<App />, document.getElementById("root"));
